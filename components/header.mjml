@@ -1,0 +1,6 @@
+ <mj-section css-class="header section-padding">
+        <mj-column>
+        <mj-image src="assets/logo.png" alt="shopify logo" width="121px" align="left" href="https://zone-coffee-2.myshopify.com"/>
+        </mj-column>
+          
+      </mj-section>

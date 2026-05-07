@@ -1,0 +1,217 @@
+<mjml>
+<mj-head>
+  <mj-style>
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  </mj-style>
+
+  <mj-style inline="inline">
+  .header {
+    background-color: #004c3f;
+  }
+
+  .h1 {
+    color: #FFFFFF;
+    font-weight: 800;
+  }
+
+  .section-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  </mj-style>
+</mj-head>
+
+   <mj-body background-color="#0B0B0B">
+        <mj-raw>
+        <!--Hero Section-->
+      </mj-raw>
+     <mj-include path="./components/header.mjml"/>
+
+     <mj-section>
+          <mj-column>
+             <mj-text css-class="h1" color="#ffffff" font-weight="700" font-size="32px" text-transform="uppercase" line-height="1.2" align="center">Stop Drinking Coffee That Doesn't Work ! </mj-text> 
+          </mj-column>
+     </mj-section>
+
+  <mj-include path="./components/3-lines.mjml" />
+
+  <mj-raw>
+  <!--Problem & Solution-->
+  </mj-raw>
+  <mj-section>
+    <mj-column>
+      <mj-text color="#ffffff" font-size="25px" line-height="1.2" font-weight="600" letter-spacing="0.5px" text-transform="uppercase">Brain Fog.<br> MidDay Crash.<br>No Focus.</mj-text>
+
+      <mj-text color="#bfbfbf" font-size="15px" line-height="1.5" font-weight="400" letter-spacing="0.5px">Your not lazy<br> your just running on<br> the wrong fuel!</mj-text>
+    </mj-column>
+   
+    <mj-column>
+      <mj-image src="./Zone Project Pictures/man-drained.jpeg"/>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column vertical-align="middle">
+      <mj-image src="./Zone Project Pictures/focused.jpeg"/>
+    </mj-column>
+
+    <mj-column padding="0px">
+      <mj-text color="#ffffff" font-size="25px" line-height="1.2" font-weight="600" letter-spacing="0.5px" text-transform="uppercase">Zone Coffee Is Designed For</mj-text>
+
+      <mj-text color="#bfbfbf" font-size="15px" line-height="1.5" font-weight="400" letter-spacing="0.5px">⚡Increased Focus<br> ⚡Mental Clarity<br> ⚡Deliver Smooth Energy<br> ⚡No Crash</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-include path="./components/3-lines.mjml"/>
+
+<mj-raw>
+<!--Choose Flavor-->
+</mj-raw>
+  <mj-section>
+    <mj-group>
+    <mj-column>
+      <mj-text color="#ffffff" align="center" font-size="24px" font-weight="600" text-transform="uppercase" >Choose Your Flavor</mj-text>
+
+      <mj-image src="./Zone Project Pictures/coffee/coff-bags.jpeg"/>
+
+      <mj-button href="https://zone-coffee-2.myshopify.com" color="#ffffff" align="center" font-size="18px" background-color="red" font-weight="bold" text-transform="uppercase" border-radius="11px">Explore Flavors</mj-button>
+    </mj-column>
+    </mj-group>
+  </mj-section>
+
+  <mj-include path="./components/3-lines.mjml"/>
+
+  <mj-raw>
+    <!--Testimonial Section-->
+  </mj-raw>
+  <mj-section padding="0px">
+  <mj-group>
+    <mj-column>
+      <mj-text color="#ffffff" text-transform="uppercase" font-size="24px" font-weight="bold" align="center">What Customers <span style="color:red;">Are Saying</span></mj-text>
+    </mj-column>
+  </mj-group>
+  </mj-section>
+
+      <mj-section padding-top="30px">
+        <mj-column>
+          <mj-text color="#bfbfbf" font-size="15px" line-height="1.5">
+            <blockquote style="padding: 20px; border-radius: 11px">⭐⭐⭐⭐⭐<br>"Since I've been drinking Zone coffee, I've had more energy after work. It keeps me energized and focused throughout the day. I've been more productive"  <br> - Johnathan </blockquote>
+          </mj-text>
+
+          <mj-text color="#bfbfbf" font-size="15px" line-height="1.5">
+            <blockquote style="padding: 20px; border-radius: 11px">⭐⭐⭐⭐⭐<br>"I used to hit a wall halfway through my heavy sets, but Zone Coffee changed the game. It’s not just about the energy; it’s the tunnel-vision focus it gives me. I stay locked into every rep from my first warm-up to my final burnout." - Miranda </blockquote>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+        <mj-image src="./Zone Project Pictures/productivity.jpeg" padding-top="12.5px"/>
+
+          <mj-image src="./Zone Project Pictures/fitness.jpeg" padding-top="99px"/>
+        </mj-column>
+</mj-section>
+
+<mj-include path="./components/3-lines.mjml"/>
+
+<mj-raw>
+  <!--Bundle Section-->
+</mj-raw>
+<mj-section>
+  <mj-column>
+    <mj-image src="./Zone Project Pictures/Coffee&Cream Bundle/C&C Bundle.png"/>
+    <mj-image src="./Zone Project Pictures/Triple Pack Bundle/caramel-3.png"/>
+  </mj-column>
+  <mj-column>
+    <mj-text color="#ffffff" font-size="24px" font-weight="bold" text-transform="uppercase" line-height="1.2" align="center">Grab A bundle and <span style="color:red;">save money</span></mj-text>
+
+    <mj-text color="#bfbfbf" align="center" font-size="15px" line-height="1.5">Can't decide? Get them all. Grab the Starter Kit to pair your favorite coffee with a matching creamer and mug, or go big with the Triple Pack Bundle to stock up on the flavors that keep you in the zone. More variety, more savings." Grab the collection today to save on your favorites and ensure you’re always stocked for the grind—wherever it takes you." </mj-text>
+
+ <mj-button href="https://zone-coffee-2.myshopify.com/pages/bundles" color="#ffffff" align="center" font-size="15px" background-color="red" font-weight="bold" text-transform="uppercase" border-radius="11px">Shop bundles</mj-button>
+    
+  </mj-column>
+</mj-section>
+
+<mj-include path="./components/3-lines.mjml"/>
+
+<mj-raw>
+<!--20% off-->
+</mj-raw>
+<mj-section>
+  <mj-column>
+  <mj-text color="#ffffff" font-weight="600" font-size="24px" align="center">🎁 Your First Order, Our Gift</mj-text>
+  <mj-text color="#bfbfbf" font-size="15px" line-height="1.5" font-weight="400">Take 20% off—just a small thank you for choosing Zone Coffee.We built Zone for people who demand more from their day—more focus, more energy, and more consistency. Every blend is crafted to deliver a smooth, bold experience that keeps you locked in from your first sip to your last.
+This isn’t just coffee—it’s part of your routine.</mj-text>
+  </mj-column>
+  
+  <mj-column>
+    <mj-image src="./Zone Project Pictures/coffee20.png"/>
+  </mj-column>
+</mj-section>
+
+<mj-include path="./components/3-lines.mjml"/>
+
+<mj-raw>
+<!--Footer-->
+</mj-raw>
+<mj-section>
+  <mj-column>
+    <mj-text color="#ffffff" align="center" font-weight="700" font-size="25px">
+      <a href="https://zone-coffee-2.myshopify.com" style="color: #ffffff; font-weight: 700; text-decoration: none;">ZONE <br><span style="color: red;">COFFEE</span></a>
+    </mj-text>
+  </mj-column>
+  
+  <mj-column>
+    <mj-text color="#ffffff" align="center">FOLLOW THE JOURNEY</mj-text>
+     <mj-social
+      mode="horizontal"
+      align="center"
+      icon-size="28px"
+      padding="0px"
+    >
+      <mj-social-element
+        name="instagram"
+        href="https://instagram.com/yourpage"
+        background-color="transparent"
+        src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"
+      />
+
+      <mj-social-element
+        name="tiktok"
+        href="https://tiktok.com/@yourpage"
+        background-color="transparent"
+        src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"
+      />
+
+      <mj-social-element
+        name="youtube"
+        href="https://youtube.com/@yourpage"
+        background-color="transparent"
+        src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+      />
+    </mj-social>
+  </mj-column>
+  
+  <mj-column>
+    <mj-text color="#ffffff" line-height="1.5">CONTACT US <br>SHIPPING & RETURNS<br>UNSUBSCRIBE</mj-text>
+  </mj-column>
+</mj-section>
+
+
+  </mj-body>
+</mjml>
+      
+
+  
+
+
+  
+          
+          
+
+
+
+  
